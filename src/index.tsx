@@ -5,7 +5,6 @@ import App from './App'
 import theme from './styles/theme'
 import GlobalStyles from './styles/global'
 
-// eslint-disable-next-line react/jsx-filename-extension
 ReactDOM.render(
   <ThemeProvider theme={theme}>
     <App />
