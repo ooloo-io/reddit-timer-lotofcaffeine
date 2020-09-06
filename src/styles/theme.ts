@@ -5,8 +5,7 @@ export default {
   font: {
     primary:
       "Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-    secondary:
-      "Bitter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+    secondary: 'Bitter, serif',
     regular: 400,
     medium: 500,
     semi: 600,
@@ -18,6 +17,9 @@ export default {
       xlarge: '2.0rem',
       xxlarge: '2.8rem',
     },
+    lineHeight: {
+      default: 1.69,
+    },
   },
   colors: {
     primary: '#fdb755',
@@ -27,6 +29,7 @@ export default {
     lightGray: '#93918f',
     gray: '#787878',
     darkGray: '#636363',
+    link: '#0087ff',
     gradientFrom: '#fefefe',
     gradientTo: '#e9e9e9',
     heatmap0: '#e0e592',
