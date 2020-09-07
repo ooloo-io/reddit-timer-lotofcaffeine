@@ -59,6 +59,7 @@ const GlobalStyles = createGlobalStyle`
     body{
     background-color: ${theme.colors.mainBg};
     font-size: ${theme.font.sizes.medium};
+    font-weight: ${theme.font.regular};
     line-height:${theme.font.lineHeight.default};
     color: ${theme.colors.lightGray};
   `}

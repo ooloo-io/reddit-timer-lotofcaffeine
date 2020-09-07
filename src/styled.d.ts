@@ -1,4 +1,4 @@
-import theme from './theme'
+import theme from 'styles/theme'
 import 'styled-components'
 
 // inferência de tipos
