@@ -9,7 +9,7 @@ const App = () => (
       <Header />
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='search' element={<SearchPage />} />
+        <Route path='search/:query' element={<SearchPage />} />
         <Route path='*' element={<UnkownPage />} />
       </Routes>
     </BrowserRouter>
